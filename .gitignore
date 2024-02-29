@@ -1,0 +1,11 @@
+*
+!.gitignore
+!hypr
+!waybar
+!wlogout
+!swaylock
+!tofi
+!helix
+!fuzzel
+!cava
+!starship.toml
