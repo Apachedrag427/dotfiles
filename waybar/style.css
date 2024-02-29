@@ -1,0 +1,148 @@
+@import "macchiato.css";
+
+* {
+	font-family: Red Hat Display Black;
+	font-size: 17px;
+	min-height: 0;
+}
+
+#waybar {
+	background: transparent;
+	color: @text;
+	margin: -1px -1px;
+}
+
+#workspaces {
+	background: @surface0;
+	margin: 2px 1px 3px 1px;
+	padding: 0px 1px;
+	border-radius: 15px;
+	border: 0px;
+	font-weight: bold;
+	font-style: normal;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+
+#workspaces button {
+	padding: 0px 5px;
+	margin: 4px 3px;
+	border-radius: 15px;
+	border: 0px;
+	color: #FFFFFF;
+	background-color: @lavender;
+	transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+	color: #FFFFFF;
+	background: @sky;
+	border-radius: 15px;
+	min-width: 40px;
+	transition: all 0.3s ease-in-out;
+}
+
+#workspaces button:hover {
+	color: #FFFFFF;
+	background: @sapphire;
+	border-radius: 15px;
+}
+
+
+#window,
+#custom-music,
+#tray,
+#clock,
+#pulseaudio,
+#custom-lock,
+#custom-power,
+#bluetooth {
+	background-color: @surface0;
+	padding: 0.25rem 1rem;
+	margin: 5px 0px;
+}
+
+#clock {
+	color: @blue;
+	border-radius: 0px 2rem 2rem 0px;
+	margin-right: 1rem;
+}
+
+#battery {
+	color: @green;
+}
+
+#battery.charging {
+	color: @green;
+}
+
+#battery.warning:not(.charging) {
+	color: @red;
+}
+
+#backlight {
+	color: @yellow;
+}
+
+#backlight,
+#battery {
+	border-radius: 0;
+}
+
+#pulseaudio {
+	color: @maroon;
+	border-radius: 2rem 0px 0px 2rem;
+	margin-left: 1rem;
+}
+
+#custom-music {
+	color: @mauve;
+	margin-left: 1rem;
+	margin-right: 0rem;
+	padding-right: 0rem;
+	border-right: 0rem;
+	border-top-left-radius: 2rem;
+	border-bottom-left-radius: 2rem;
+}
+
+#custom-music.music2 {
+	font-family: Red Hat Display;
+	font-style: italic;
+	font-weight: bold;
+	padding-left: 0rem;
+	margin-left: 0rem;
+	border-left: 0rem;
+	border-right: 1rem;
+	padding-right: 1rem;
+	border-top-left-radius: 0rem;
+	border-bottom-left-radius: 0rem;
+	border-top-right-radius: 2rem;
+	border-bottom-right-radius: 2rem;
+}
+
+
+#custom-lock {
+	border-radius: 1rem 0px 0px 1rem;
+	color: @lavender;
+}
+
+#custom-power {
+	margin-right: 1rem;
+	border-radius: 0px 1rem 1rem 0px;
+	color: @red;
+}
+
+#window {
+	margin-left: 1rem;
+	border-radius: 1rem;
+}
+
+#tray {
+	margin-right: 1rem;
+	border-radius: 1rem;
+}
+
+#bluetooth {
+	margin-right: 1rem;
+	border-radius: 1rem;
+}
