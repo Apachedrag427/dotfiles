@@ -1,0 +1,28 @@
+[[language]]
+name = "lua"
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "rust"
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "c"
+indent = { tab-width = 4, unit = "\t" }
+file-types = ["c", "h"]
+
+[[language]]
+name = "v"
+indent = { tab-width = 4, unit = "\t" }
+file-types = ["v"]
+
+[[language]]
+name = "crystal"
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "markdown"
+indent = { tab-width = 4, unit = "\t" }
+soft-wrap = { enable = true }
+
+
