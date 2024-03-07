@@ -3,6 +3,7 @@ theme = "main"
 [editor]
 line-number = "relative"
 bufferline = "always"
+true-color = true
 
 [editor.cursor-shape]
 insert = "bar"
